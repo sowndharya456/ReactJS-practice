@@ -1,6 +1,6 @@
 import React from 'react';
 
-function App() {
+class App extends Component{
    render() {
       return (
         <div>
@@ -14,9 +14,9 @@ function App() {
             <span>Phone</span>
           </div>
         </div>
-      );    
+      );
+    }
 }
-
 export default App;
 
 
