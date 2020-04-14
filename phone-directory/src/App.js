@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 
 class App extends Component{
    render() {
@@ -31,3 +31,24 @@ export default App;
 //     <input type = "text" placeholder = "Enter text" />
 //     </div>
 // );
+
+// import React , {Component} from 'react';
+// import Header from "./Header";
+// import Password from "./Password";
+// import ProgressBar from "./ProgressBar";
+// import StrengthCriteria from "./StrengthCriteria";
+
+// class App extends Component{
+//     render(){
+//         return(
+//           <div>
+//             <Header /><br />
+//             <Password />
+//             <ProgressBar />
+//             <StrengthCriteria />
+            
+//             </div>
+//             );
+//     }
+// }
+// export default App;
