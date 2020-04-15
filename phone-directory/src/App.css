@@ -1,0 +1,22 @@
+.component-body-container
+{
+    padding: 30px;
+}
+.addBtn{
+background-color:green;
+color: white;
+padding: 8px;
+width: 67px;
+font-size: bold;
+font-size: medium;
+font-weight: bolder;
+}
+
+.grid{
+    display: grid-container;
+    margin-top: 30px;
+    grid-template-columns: 31% 7% auto;
+    font-size: larger;
+    font-weight: 800;
+    color: grey;
+}
