@@ -1,14 +1,22 @@
 // TODO 4: Create 'StrengthCriteria' as a functional component to render the list of criteria for analyzing a strong password. Write necessary import statement(s) too.
 import React from 'react';
 const StrengthCriteria=function(){
-    return (
-      <div>
-      <p>Minimum 8 characters long<br/>
-      Atleast 1 special character<br/>
-      Atleast 1 number<br/>
-      Atleast 1 capital letter</p><br/>
-      </div>
-      )
+  return (
+    <div className="strengthCriteria">
+        <span id='checkCharLength'>
+            Minimum 8 characters long
+                </span><br />
+        <span id='checkCapitalLetter'>
+            Atleast 1 capital letter
+                </span><br />
+        <span id='checkNumber'>
+            Atleast 1 number
+                </span><br />
+        <span id='checkSpecialChar'>
+            Atleast 1 special character
+                </span><br />
+    </div>
+);
 }
 
 export default StrengthCriteria;

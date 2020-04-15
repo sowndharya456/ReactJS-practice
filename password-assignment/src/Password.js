@@ -3,7 +3,7 @@ import React from 'react';
 const Password= function(){
     return (
         <div>
-        <input type="text" placeholder="Type your password here"/>
+            <input id='password' type='password' placeholder='Type your password here' />
         </div>
         )
 }

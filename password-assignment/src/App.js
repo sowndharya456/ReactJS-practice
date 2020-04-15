@@ -7,7 +7,7 @@ import StrengthCriteria from "./StrengthCriteria";
 class App extends Component{
     render(){
         return(
-          <div>
+          <div className='main-container'>
             <Header /><br />
             <Password />
             <ProgressBar />
