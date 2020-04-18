@@ -2,7 +2,10 @@
 import React from 'react';
 const StrengthCriteria=function(){
   return (
-    <div className="strengthCriteria">
+    <div style={{position: 'absolute',
+      top: '199px',
+      fontSize: '15px',
+      color: '#aaa'}}>
         <span id='checkCharLength'>
             Minimum 8 characters long
                 </span><br />

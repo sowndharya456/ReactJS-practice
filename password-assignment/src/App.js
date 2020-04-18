@@ -3,6 +3,7 @@ import Header from "./Header";
 import Password from "./Password";
 import ProgressBar from "./ProgressBar";
 import StrengthCriteria from "./StrengthCriteria";
+import "./index.css"
 
 class App extends Component{
     render(){
